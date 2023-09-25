@@ -1,0 +1,743 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+
+/*==== genarel style ====*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Dancing Script', cursive;
+    overflow-x: hidden;
+}
+
+
+
+/*===== navbar style =====*/
+.navColor {
+    color: #fff;
+    background: cadetblue;
+}
+
+.logoColor {
+    font-size: 35px;
+    padding: 15px;
+    color: #fff;
+}
+
+.logoColor:hover {
+    color: aquamarine;
+}
+
+.cart img {
+    width: 35px;
+    margin-top: -10px;
+}
+
+.sColor {
+    color: #f78fb3;
+    font-size: 38px;
+}
+
+.nav-link {
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 24px;
+    letter-spacing: 1.8px;
+    color: #fff;
+    background: cadetblue;
+    margin-left: 18px;
+}
+
+.SignUp {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 21px;
+    letter-spacing: 1px;
+    color: #f3f4f5;
+}
+
+.SignUp img {
+    background: #F5F6F7;
+    border-radius: 10px;
+    width: 30px;
+    height: 25px;
+    padding: 5px 8px;
+    margin-right: 5px;
+}
+
+.nav-link:hover {
+    color: aquamarine;
+}
+
+/*=== section1 style ===*/
+.bennar img {
+    width: 100%;
+    height: auto !important;
+    position: absolute;
+}
+
+.hedingTag {
+    position: relative;
+}
+
+.hedingTag h1 {
+    font-size: 52px;
+    font-weight: bold;
+    letter-spacing: 1.6px;
+    text-align: center;
+    padding: 20px;
+    margin-top: 130px !important;
+    color: #f3f4f5;
+}
+
+.hedingTag p {
+    font-size: 28px;
+    color: #f3f4f5;
+    padding: 25px;
+    text-align: center;
+    margin-bottom: 200px;
+}
+
+
+.HP h1 {
+    color: cadetblue;
+    text-align: center;
+}
+
+.HP p {
+    color: cadetblue;
+    text-align: center;
+}
+
+.bennarBtn {
+    background: cadetblue;
+    margin-top: -18%;
+    margin-left: 45%;
+    padding: 2px 15px;
+    border-radius: 35px !important;
+    transition: 0.4s;
+}
+
+.bennarBtn:hover {
+    background: #f78fb3;
+}
+
+.bennarBtn a {
+    font-size: 26px;
+    font-weight: 700;
+    color: #f3f4f5;
+    text-decoration: none;
+}
+
+/*==== section2 style  ====*/
+.section2 {
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(image/bennar2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    margin-top: 120px;
+    margin-bottom: 100px;
+}
+
+.section2 img {
+    width: 100%;
+    height: 200px;
+    margin: 35px 22px;
+    border-radius: 50%;
+    transition: .5s;
+}
+
+.section2 img:hover {
+    transform: scale(1.1);
+}
+
+
+
+/*==== section3 style  ====*/
+.section3 {
+    margin-top: 250px;
+}
+
+.section3 h1 {
+    font-size: 55px;
+    padding: 16px 0;
+    background: cadetblue;
+    color: #f3f4f5;
+    letter-spacing: 1.5px;
+}
+
+.pColor {
+    font-size: 65px;
+}
+
+.card {
+    border: 1px solid cadetblue;
+    margin-top: 75px;
+}
+
+.section3 img {
+    width: 86%;
+    height: 350px;
+    margin: 38px 28px 68px;
+    border-radius: 12px;
+    /* border-radius: 50%; */
+    transition: .5s;
+}
+
+.section3 img:hover {
+    transform: scale(1.1);
+}
+
+.styleCard h4 {
+    font-size: 36px;
+    color: #f3f4f5;
+    letter-spacing: 1.6px;
+    text-align: center;
+}
+
+.star-icon {
+    color: #f3f4f5;
+    font-size: 18px;
+    text-align: center;
+    padding: 16px;
+}
+
+.starIcon {
+    color: #f78fb3;
+}
+
+.styleCard {
+    background: cadetblue;
+}
+
+.styleCard p {
+    font-size: 22px;
+    color: #f3f4f5;
+    text-align: center;
+}
+
+
+/*==== section4 style  ====*/
+.section4 {
+    margin-top: 250px;
+}
+
+.h1Style {
+    font-size: 55px;
+    padding: 16px 0;
+    background: cadetblue;
+    color: #f3f4f5;
+    letter-spacing: 1.5px;
+}
+
+.allImg {
+    width: 88%;
+    height: 187px;
+    margin: 18px 16px 58px;
+    padding: 5px;
+    border-radius: 12px;
+    transition: .5s;
+}
+
+.allImg:hover {
+    transform: scale(1.1);
+}
+
+.lateststyle {
+    background: cadetblue;
+    color: #f3f4f5;
+    text-align: center;
+}
+
+.h4Style {
+    font-size: 30px;
+    color: #f3f4f5;
+    letter-spacing: 1.6px;
+}
+
+.takastyle {
+    font-size: 20px;
+    color: #f3f4f5;
+}
+
+.rdStyle {
+    margin-left: 19%;
+}
+
+
+/*==== section5 style  ====*/
+.section5 {
+    margin-top: 250px;
+}
+
+
+/*==== section6 style  ====*/
+.section6 {
+    margin-top: 250px;
+}
+
+/*==== section7 style  ====*/
+.section7 {
+    margin-top: 250px;
+}
+
+/*==== section8 style  ====*/
+.section8 {
+    margin-top: 250px;
+}
+
+/*==== section9 style  ====*/
+.section9 {
+    margin-top: 250px;
+}
+
+
+/*==== section10 style  ====*/
+.section10 {
+    margin-top: 250px;
+}
+
+/*==== section11 style  ====*/
+.section11 {
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(image/bennar5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    margin-top: 190px;
+}
+
+.section11-info {
+    color: #f3f4f5;
+    text-align: center;
+}
+
+.section11-info h4 {
+    font-size: 18px;
+    padding: 28px;
+    color: aquamarine;
+    letter-spacing: 1.8px;
+    margin-top: 40px;
+}
+
+.eColor {
+    font-size: 28px;
+}
+
+
+.section11-info h2 {
+    font-size: 55px;
+    letter-spacing: 2px;
+    padding: 16px;
+}
+
+.shopeColor {
+    color: aquamarine;
+    font-size: 65px;
+    letter-spacing: 2px;
+    padding: 16px;
+}
+
+
+.section11-info p {
+    font-size: 20px;
+    letter-spacing: 2px;
+    padding: 8px 16px;
+    line-height: 1.6;
+}
+
+.brandBtn {
+    margin-top: 2%;
+    margin-left: 0%;
+    margin-bottom: 80px;
+}
+
+
+
+
+/*==== section11 style  ====*/
+.section12 {
+    margin-top: 150px;
+}
+
+.review img {
+    width: 32%;
+    height: 140px;
+    border-radius: 50%;
+    margin: 30px 35%;
+}
+
+.imgColor:hover {
+    transform: translateY(-12px);
+}
+
+.imgStyle:hover {
+    transform: translateY(-12px);
+}
+
+.imgColor {
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
+    background: cadetblue;
+    color: #f3f4f5;
+    transition: 0.5s;
+}
+
+.imgStyle {
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
+    background: #f78fb3;
+    border: #f78fb3;
+    color: #f3f4f5;
+    transition: 0.5s;
+}
+
+.star {
+    color: cadetblue;
+}
+
+
+
+.review h2 {
+    font-size: 38px;
+    text-align: center;
+}
+
+.review p {
+    font-size: 19.6px;
+    padding: 12px;
+    text-align: center;
+    letter-spacing: 1.8px;
+}
+
+
+/*==== section13 style  ====*/
+.section13 {
+    margin-top: 150px;
+}
+
+.Pmassage {
+    padding: 14px 18px;
+    border-radius: 13px;
+    font-size: 22px;
+    color: #fff;
+    background: cadetblue;
+    border: none;
+    margin-bottom: 20px;
+    margin-left: 95%;
+}
+
+.Pmassage:hover {
+    border: #f78fb3;
+    background: #f78fb3;
+    color: #f3f4f5;
+}
+
+.tMassage {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.toast-body h2 {
+    font-size: 22;
+}
+
+.toast-body p {
+    font-size: 18px;
+}
+
+.top .fa-solid {
+    padding: 16px 18px;
+    border-radius: 13px;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    margin-left: 95%;
+    color: #fff;
+    background: #f78fb3;
+}
+
+
+
+/*----- footer ------*/
+
+.sectionFooter {
+    background: cadetblue;
+    color: #fff;
+    font-size: 14px;
+    padding: 60px 0px 20px;
+}
+
+.sectionFooter p {
+    color: #fff;
+    font-size: 20PX;
+}
+
+.sectionFooter h3 {
+    color: #fff;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.footer-titel a {
+    font-size: 48px !important;
+}
+
+.footer-titel p {
+    font-size: 20px !important;
+    padding: 8px;
+}
+
+.footerLink h3 {
+    font-size: 32px;
+}
+
+.footerLink li {
+    font-size: 22px;
+}
+
+.footerLink li:hover {
+    color: aquamarine;
+}
+
+.footerLink {
+    min-width: 250px;
+    margin-bottom: 20px;
+}
+
+.footer-col-1 {
+    flex-basis: 30%;
+}
+
+.footer-col-2 {
+    flex: 1;
+    text-align: center;
+}
+
+.footer-col-2 img {
+    width: 180px;
+}
+
+.footer-col-3,
+.footer-col-4 {
+    flex-basis: 12%;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+}
+
+.app-logo {
+    margin-top: 20px;
+}
+
+.app-logo img {
+    width: 140px;
+}
+
+.sectionFooter hr {
+    border: none;
+    background: #fff;
+    height: 2px;
+    margin: 20px 0;
+}
+
+.Copyright {
+    display: flex;
+    color: cadetblue;
+    text-align: center;
+    background: #f78fb3;
+}
+
+.copy-info {
+    margin-left: 14%;
+    margin-top: 19px;
+}
+
+.Copyright p {
+    font-size: 22px;
+    padding: 16px;
+}
+
+
+.cColor {
+    color: aquamarine;
+    font-size: 44px;
+    margin-top: -22px;
+    margin-left: 8px;
+}
+
+.social-icon {
+    margin-left: 18%;
+    margin-top: 17px;
+}
+
+.Copyright .social-icon i {
+    font-size: 22px;
+    margin: 22px 6px;
+    padding: 8px 10px;
+    border-radius: 8px;
+    background: cadetblue;
+    color: #f3f4f5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media all and (max-width: 767px) {
+    .hedingTag h1 {
+        font-size: 23px;
+        margin-top: -5px !important;
+    }
+
+    .hedingTag p {
+        font-size: 12px;
+        margin-bottom: -55px !important;
+        margin-top: -50px;
+    }
+
+    .bennar img {
+        width: 100%;
+        height: auto;
+    }
+
+    .bennarBtn {
+        margin-top: 10%;
+        margin-left: 26%;
+        margin-bottom: 10%;
+    }
+
+    .section2 img {
+        width: 68%;
+        height: 225px;
+        margin: 28px 62px 55px;
+    }
+
+    .h1Style {
+        font-size: 47px;
+        padding: 8px 14;
+        letter-spacing: 0.5px;
+    }
+
+    .pColor {
+        font-size: 44px;
+    }
+
+    .section3 img {
+        /* width: 74%;
+        margin: 0px 0px 0px;
+        border-radius: 50%;
+        transition: .5s;
+        */
+    }
+
+    .allImg {
+        width: 100%;
+        height: auto;
+        /* margin: 18px 16px 58px; */
+        padding: 25px 65px 4px 31px;
+        /* border-radius: 50%; */
+        transition: .5s;
+    }
+
+    .rdStyle {
+        margin-left: 0%;
+    }
+
+    .rowResponse {
+        width: 70%;
+        height: auto;
+        margin-left: 15%;
+    }
+
+    .section11-info h4 {
+        font-size: 18px;
+        padding: 6px;
+        letter-spacing: 1.4px;
+        margin-top: 61px;
+    }
+
+
+    .section11-info h2 {
+        font-size: 35px;
+        letter-spacing: 2px;
+        padding: 16px;
+    }
+
+    .shopeColor {
+        font-size: 54px;
+    }
+
+    .section11-info p {
+        font-size: 18px;
+        letter-spacing: 2px;
+        padding: 8px 16px;
+        line-height: 1.6;
+    }
+
+    .brandBtn {
+        margin-top: 4%;
+        margin-left: 0%;
+        margin-bottom: 10%;
+    }
+
+    .review img {
+        width: 37%;
+        height: 125px;
+        border-radius: 50%;
+        margin: 37px 31%;
+    }
+
+    .Pmassage {
+        margin-top: -33px;
+        margin-bottom: 8px;
+        margin-left: 78%;
+    }
+
+    .top .fa-solid {
+        margin-bottom: 20px;
+        margin-left: 78%;
+    }
+
+    .footerLink {
+        margin-top: 50px;
+    }
+
+    .Copyright {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .copy-info {
+        margin-left: 0%;
+        margin-top: 24px;
+    }
+
+    .footer-col-1 {
+        flex-basis: 64%;
+    }
+
+    .social-icon {
+        margin-left: 0%;
+        margin-top: -48px;
+        margin-bottom: 28px;
+    }
+
+
+
+
+}
